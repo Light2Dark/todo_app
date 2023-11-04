@@ -74,7 +74,7 @@ const Todo = () => {
             <h1 className="text-3xl font-bold dark:text-pale-cream">To-Do</h1>
 
             <form className="mt-5 mb-6 flex flex-col md:flex-row gap-2 items-center" onSubmit={handleSubmit}>
-                <input type="text" name="todo_input" id="todo_input" required placeholder="Buy milk and eggs" className="px-4 py-1 border-black border-2 rounded-lg w-60 md:w-80 dark:border-pale-cream" autoComplete="off" />
+                <input type="text" name="todo_input" id="todo_input" required placeholder="Follow your dreams" className="px-4 py-1 border-black border-2 rounded-lg w-60 md:w-80 dark:border-pale-cream" autoComplete="off" />
                 <button type="submit" className="w-1/2 md:w-fit bg-slate-200 p-2 rounded-md hover:bg-slate-300 dark:bg-pale-red dark:hover:bg-red-300 transition-all">Add To-Do</button>
             </form>
 

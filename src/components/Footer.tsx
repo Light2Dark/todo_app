@@ -4,7 +4,7 @@ const Footer = () => {
             {/* <a className="text-xs text-gray-500" href="https://codepen.io/sho-obum/pen/zYWzLNN">
                 DarkMode Toggle
             </a> */}
-            <a href="https://github.com/Light2Dark" className="hover:scale-105">
+            <a href="https://www.smolwaffle.com" className="hover:scale-105">
                 <img className="h-10" src="Octocat.png" alt="GitHub Logo" />
             </a>
         </div>
